@@ -1,0 +1,10 @@
+---
+- name: demo playbook
+  hosts: all
+  
+  tasks:
+  
+    - name: ping localhost
+      ping:
+    
+   
